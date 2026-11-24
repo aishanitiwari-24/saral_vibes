@@ -1,23 +1,109 @@
+
+/* Overall webpage styling */
 body {
     background-color: #fffaf7;
     font-family: Arial, sans-serif;
     text-align: center;
+    margin: 0;
+    padding: 20px;
 }
 
+/* Website heading */
 h1 {
     color: #7b3151;
+    font-size: 40px;
 }
 
+/* Navigation links */
+nav {
+    margin: 25px 0;
+}
+
+nav a {
+    color: #7b3151;
+    text-decoration: none;
+    margin: 12px;
+    font-size: 18px;
+}
+
+/* Main welcome heading */
+h2 {
+    color: #333333;
+    margin-top: 40px;
+}
+
+/* Description */
 p {
     color: #555555;
     font-size: 18px;
 }
 
+/* Explore button */
 button {
-    background-color: #7b3151;
+    background-color: #712f4c;
     color: white;
     border: none;
     padding: 12px 24px;
     border-radius: 6px;
     cursor: pointer;
 }
+
+/* Header design */
+header {
+    background-color: white;
+    padding: 20px;
+    border-bottom: 1px solid #eadde2;
+}
+
+/* Brand name inside header */
+header h1 {
+    margin: 0;
+}
+
+/* Navigation layout */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #fff0f3;
+    padding: 70px 20px;
+    text-align: center;
+}
+
+/* Hero heading */
+.hero h2 {
+    color: #7b3151;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+/* Hero description */
+.hero p {
+    color: #555555;
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto 25px;
+}
+
+/* Button hover effect */
+.hero button:hover {
+    background-color: #542039;
+    transition: 0.3s;
+}
+
+/* Navigation hover effect */
+nav a:hover {
+    color: #542039;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+
+
