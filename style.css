@@ -104,6 +104,60 @@ nav a:hover {
     text-decoration: underline;
     transition: 0.3s;
 }
+/* Collection Section */
+.collection {
+   background-color: #fff0f3;  
+   padding: 60px 20px;
+   text-align:center;
+}
+/* Collection Heading */
+.collection h2{
+    color:#7b3151;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+/* Collection Description */
+.collection p{
+    color: #555555;
+    font-size: 18px;
+    line-height: 1.6;
+}
+/* Product Card */
+.product-card {
+    background-color: white;
+    width: 250px;
+    padding: 25px;
+    margin: 30px auto;
+    border: 1px solid #eadde2;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Product Name */
+.product-card h3 {
+    color: #7b3151;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+/* Product Price */
+.product-card h4 {
+    color: #333333;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+/* Product Image */
+.product-card img {
+    width: 100%;
+    height: 260px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+/* Product Card Button Hover */
+.product-card button:hover {
+    background-color: #542039;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
 
 
 
