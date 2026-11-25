@@ -113,24 +113,28 @@ nav a:hover {
 /* Collection Heading */
 .collection h2{
     color:#7b3151;
-    font-size: 32px;
-    margin-bottom: 15px;
+    font-size: 34px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
 }
 /* Collection Description */
 .collection p{
     color: #555555;
     font-size: 18px;
     line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto 30px;
 }
 /* Product Card */
 .product-card {
     background-color: white;
     width: 250px;
     padding: 25px;
-    margin: 30px auto;
-    border: 1px solid #eadde2;
+    margin: 30px 0;
+    border: 1px solid #f0e2e8;
     border-radius: 10px;
     text-align: center;
+    box-sizing: border-box;
 }
 
 /* Product Name */
@@ -157,6 +161,14 @@ nav a:hover {
     background-color: #542039;
     transition: 0.3s;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Product Container */
+.product-container {
+    display : flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
 }
 
 
