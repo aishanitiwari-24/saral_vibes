@@ -194,6 +194,46 @@ nav a:hover {
         font-size: clamp(22px, 6.5vw, 28px)
     }
 }
+ 
+ /* About Us Section */
+ .about {
+    background-color: white;
+    padding: 50px 30px;
+    text-align: center;
+ }
+ .about h2 {
+    color: #7b3151;
+    font-size: 34px;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+.about h3 {
+    color: #7b3151;
+    font-size: 26px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+.about p {
+    color: #555555;
+    font-size: 17px;
+    line-height: 1.8;
+    max-width: 850px;
+    margin: 0 auto 20px;
+}
 
 
-
+/* Back To Home link */
+.back-home{
+    display: inline-block;
+    background-color: #712f4c;
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+.back-home:hover {
+    background-color: #542039;
+    transition: 0.3s;
+}
