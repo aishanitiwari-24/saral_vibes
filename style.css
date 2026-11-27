@@ -237,3 +237,40 @@ nav a:hover {
     background-color: #542039;
     transition: 0.3s;
 }
+
+/* Contact Us Section */
+.contact {
+    background-color: #fff0f3;
+    padding: 50px 30px;
+    text-align: center;
+}
+
+.contact h2 {
+    color: #7b3151;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    color: #555555;
+    font-size: 17px;
+    line-height: 1.8;
+    max-width: 750px;
+    margin: 0 auto 20px;
+}
+
+/* Contact Details */
+.contact-details {
+    background-color: white;
+    max-width: 500px;
+    margin: 35px auto 0;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #f0e2e8;
+}
+
+.contact-details h3 {
+    color: #7b3151;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
